@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.scss';
+import '../Product_Card/style.scss';
+import imgcard from './assets/NikeZoomKD12.png';
 
-
-export default function App() {
+export default function Product() {
   return (
     <div className="card">
       <span className="like"><i className='bx bx-heart'></i></span>
       <span className="cart"><i className='bx bx-cart-alt'></i></span>
       <div className="card__img">
-        <img src= {require('./assets/Nike Zoom KD 12.png')} alt="" />
+        <img src= {imgcard} alt="" />
       </div>
       <h2 className="card__title">Nike Zoom KD 12</h2>
       <p className="card__price">$99</p>
